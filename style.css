@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexible-continer{
     display: flex;
     margin-bottom: 100px;
 }
@@ -34,3 +37,16 @@ section{
     background-image: url(image/top\ background.png);
     
 }
+.experince-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-right: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
